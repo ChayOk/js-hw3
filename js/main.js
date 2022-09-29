@@ -123,7 +123,6 @@ function ninethTask() {
 		}
 	}
 	task9.innerHTML =  task9.innerHTML + 'Самое большое число в строке = ' + arraySplit[i] + '<br>';
-    console.log(i);
 
 	for (i = 0; arraySplit[i] < arraySplit.length; i++) {
 		if (arraySplit[i] < arraySplit[i + 1]) {
@@ -137,7 +136,6 @@ ninethTask();
 
 // 10
 let task10 = document.getElementById("task10");
-// x = n.split('');
 function tenthTask() {
     n = prompt('Введите число n', 12345);
     task10.innerHTML =  task10.innerHTML + 'Вы ввели число: ' + n + '<br><br>';
